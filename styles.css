@@ -45,6 +45,7 @@ h1{
 
 #submit{
   background-color: hsl(25, 97%, 53%);
+  color: white;
   border: none;
   min-width: 250px;
   height: 50px;
@@ -76,6 +77,7 @@ h1{
   border: none;
   min-width: 250px;
   height: 50px;
+  color: white;
 }
 
 
