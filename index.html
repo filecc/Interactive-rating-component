@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Boostrap Scripts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/9956ad3127.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+  <main class="container-fluid d-flex flex-column min-vh-100 justify-content-center align-items-center">
+    <section id="theOne" class="main-container container-fluid d-flex flex-column justify-content-center align-items-center rounded-4">
+      <section class="heading">
+        <img class="star-logo" src="images/icon-star.svg" alt="icon-star">
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
+      </section>
+      <section class="container-fluid d-flex justify-content-between buttons ms-0 ps-0 me-0 pe-0">
+        <button id="1" type="btn" class="btn btn-dark rounded-circle" name="button">1</button>
+        <button id="2" type="btn" class="btn btn-dark rounded-circle" name="button">2</button>
+        <button id="3" type="btn" class="btn btn-dark rounded-circle" name="button">3</button>
+        <button id="4" type="btn" class="btn btn-dark rounded-circle" name="button">4</button>
+        <button id="5" type="btn" class="btn btn-dark rounded-circle" name="button">5</button>
+
+      </section>
+      <section class="submitter">
+        <button id="submit" class="rounded-pill" name="button">Submit</button>
+      </section>
+    </section>
+
+    <!-- Rating state end -->
+    <!-- Thank you state start -->
+    <section id="thank-container" class="disappear text-center">
+      <img src="images/illustration-thank-you.svg" alt="thanks">
+      <br>
+      <p id="voted">You selected <span id="thanking"></span> out of 5 </p>
+
+      <h1>Thank you!</h1>
+
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+
+      <button id="back" class="rounded-pill" name="button">Go back</button>
+
+      <!-- Thank you state end -->
+    </section>
+    <div class="attribution container position-absolute bottom-0 start-50 translate-middle-x">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.instagram.com/filecc" target="_blank">@filecc</a>.</p>
+    </div>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

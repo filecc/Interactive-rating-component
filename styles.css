@@ -1,0 +1,91 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: 'Overpass', sans-serif;
+}
+
+.btn{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.main-container{
+  max-width: 370px;
+  min-height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 30px;
+}
+
+.buttons{
+  margin: 0 0 20px 0;
+
+}
+
+
+p{
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+h1{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.star-logo {
+  margin: 0 0 20px 0;
+  border-radius: 100%;
+  border: solid 20px;
+}
+
+
+
+#submit{
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  min-width: 250px;
+  height: 50px;
+}
+
+#submit:hover{
+  background-color: white;
+}
+
+.disappear{
+  display: none;
+}
+
+#voted{
+  border-right: solid 20px;
+  border-left: solid 20px;
+  border-radius: 20px;
+  border-color: hsl(213, 19%, 18%);
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+}
+
+.active{
+  background-color: hsl(25, 97%, 53%) !important;
+}
+
+#back{
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  min-width: 250px;
+  height: 50px;
+}
+
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5%;
+    
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
